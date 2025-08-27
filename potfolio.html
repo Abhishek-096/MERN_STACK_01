@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+</head>
+<body>
+  <!-- Simple navigation with links to sections -->
+  <header>
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#menu">Menu</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <main>
+    <section id="home">
+      <h1>Hi, I'm Your Name</h1>
+      <p>Welcome to my portfolio. I build web apps and love solving problems.</p>
+      <p>
+        Quick links:
+        <a href="#about">About</a>,
+        <a href="#menu">Menu</a>
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>Write a short bio here. Mention your skills, experience, and interests.</p>
+      <ul>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+      </ul>
+    </section>
+
+    <!-- Menu / Projects Section -->
+    <section id="menu">
+      <h2>Menu</h2>
+      <p>Use this like a menu of your work or pages. For example:</p>
+      <ol>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ol>
+
+      <!-- Optional extra sections this menu points to -->
+      <section id="projects">
+        <h3>Projects</h3>
+        <article>
+          <h4>Project One</h4>
+          <p>Short description of what it does and the tech used.</p>
+          <p><a href="https://example.com" target="_blank">Live Demo</a> | <a href="https://github.com/username/repo" target="_blank">Source Code</a></p>
+        </article>
+        <article>
+          <h4>Project Two</h4>
+          <p>Another brief description here.</p>
+          <p><a href="https://example.com" target="_blank">Live Demo</a> | <a href="https://github.com/username/repo" target="_blank">Source Code</a></p>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourname" target="_blank">yourname</a></p>
+      </section>
+
+      <section id="resume">
+        <h3>Resume</h3>
+        <p>Link your resume file here: <a href="resume.pdf" target="_blank">Download Resume</a></p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    // Updates the year automatically; remove if you don't want JS
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
