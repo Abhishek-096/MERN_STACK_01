@@ -1,0 +1,80 @@
+/* Universal Selector */
+/* *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+/* ************************************* */
+/* Indivisual tag change color when same type header on html */
+/* #we{
+    color:red;
+} */
+/* ************************************ */
+/* Class Selector-->Selects an elements bases on their class attribute */
+/* .myclass{
+    property:value;
+} */
+/* .follow{
+    background-color: green;
+} */
+/* ********************************* */
+/* Attribute selector❤️ */
+/*input[type="text"]{
+    color: red;
+}
+
+input[type="Password"]{
+    color: green;
+}
+input[type]{
+    color: red;
+} */
+/* **********patice test 201❤️************************* */
+
+/* #myid p{
+    color: red;
+}
+div[id="myid"] p{
+    background-color: yellow;
+} */
+/* ******************************************* */
+.upvote{
+    background-color: green;
+}
+.upvote+button{
+    background-color: red;
+}
+/* Pseudo Class❤️ **********************/
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: rgb(41, 141, 141);
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2n){
+    background-color: rgb(59, 154, 157);
+}
+/* Pseudo Elements❤️***************** */
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: chocolate;
+}
+/* !important❤️****************[that's means any styeling is impotant but !important is more impotanat */
+/* h3{
+    background-color: red !important;
+} */
